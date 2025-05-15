@@ -1,68 +1,48 @@
-# hospital-emergency-room-dashboard
+# Hospital Emergency Room Dashboard
 
-Project Overview
+## Project Overview
+This project is a Hospital Emergency Room Dashboard created using Microsoft Excel with Power Pivot. The dashboard provides an interactive and insightful view of the emergency room's performance, helping stakeholders monitor key metrics effectively.
 
-This project is an interactive Hospital Emergency Room Dashboard created using Excel and Power Pivot. It provides insights into emergency room performance metrics such as patient count, average wait time, patient satisfaction, and demographic distribution.
+## Data Source
+- The data used in this project is from a CSV file named **"Hospital Emergency Room Data.csv"**.
+- The data contains information on patient visits, including patient ID, age, gender, visit date, diagnosis, and outcomes.
 
-Key Features
+## Data Preparation
+- The raw data was cleaned and transformed using Excel Power Query.
+- Unnecessary columns were removed, and missing values were handled appropriately.
+- Data types were corrected, and consistent formatting was applied.
 
-•	Interactive Dashboard:
+## KPIs Tracked
+- Total Patient Visits
+- Average Patient Age
+- Gender Distribution (Male/Female)
+- Visit Distribution by Weekday
+- Top 5 Diagnoses by Patient Count
+- Patient Outcome Distribution (Admitted, Discharged, etc.)
 
-o	Slicers for Year (2023, 2024) and Months to dynamically filter data.
+## Dashboard Features
+- Interactive visualizations using Pivot Charts and Slicers.
+- Gender Distribution and Patient Outcome displayed using Pie Charts.
+- Visit Distribution by Weekday visualized using a Bar Chart.
+- Top 5 Diagnoses displayed in a List Chart.
 
-o	Charts and KPIs automatically update based on user selection.
+## Project Highlights
+- Efficient data cleaning and transformation using Power Query.
+- Interactive analysis through Excel Power Pivot.
+- User-friendly dashboard design for clear insights.
 
-•	KPI Tracking:
+## Technical Details
+- Created custom calculated columns in Power Pivot using DAX formulas, including:
+  - **Age Group** classification to segment patients by age ranges.
+  - **Patient Attend Status** to label patients as 'Ontime' or 'Delay' based on their wait time (30 minutes threshold).
 
-o	Total number of patients visiting the ER per day.
-
-o	Average wait time for patients to see a medical professional.
-
-o	Average patient satisfaction score to assess service quality.
-
-
-•	Data Visualization:
-
-o	Admission Status: Number of patients admitted vs. not admitted.
-
-o	Age Distribution: Patients grouped by age categories.
-
-o	Timeliness: Percentage of patients seen within the expected time frame.
-
-o	Gender Analysis: Distribution of patients by gender.
-
-o	Department Referrals: Patient count per department.
-
-•	Data Cleaning and Transformation:
-
-o	Used Power Pivot for data integration and transformation.
-
-o	Techniques: Removing duplicates, merging tables, creating calculated columns.
-
-Tools and Technologies Used
-
-•	Excel (Data Visualization, KPI Calculation)
-
-•	Power Pivot (Data Cleaning and Transformation)
-
-Usage Instructions
-
-1.	Open the Excel file to view the interactive dashboard.
-  
-2.	Use the slicers to switch between years (2023, 2024) and months.
-	
-3.	Analyze key performance metrics using the visualizations and charts.
-
-Project Insights
-
-•	The dashboard provides an interactive view of emergency room metrics across 2023 and 2024, allowing analysis by month.
-
-•	Average wait time and satisfaction scores are dynamically updated based on the selected period.
-
-•	Gender distribution, age distribution, and department referrals are displayed based on user selection.
-
-•	Users can easily switch between years and months to observe trends and patterns.
+## How to Use
+- Open the Excel file **"HOSPITAL EMERGENCY ROOM REPORT PROJECT ON EXCEL PIVOT.xlsx"**.
+- Use the slicers for gender, visit date, and patient outcome to filter the data.
+- Explore various charts to gain insights into the emergency room's performance.
 
 
-Feel free to open issues or submit pull requests to improve the dashboard.
+## Author
+- Created by [Diwan Faisal Khan].
 
+- Feel free to open issues or submit pull requests to improve the dashboard.
